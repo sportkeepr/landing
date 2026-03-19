@@ -107,7 +107,7 @@ function handleContact() {
   // Build mailto and open mail client
   const subject = encodeURIComponent(`[SportKeepr] Message from ${name}${role ? ' (' + role + ')' : ''}`);
   const body    = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nRole: ${role || '—'}\n\n${message}`);
-  window.location.href = `mailto:contact@sportkeepr.app?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:sportkeepr@gmail.com?subject=${subject}&body=${body}`;
 
   // Reset button after short delay
   setTimeout(() => {
