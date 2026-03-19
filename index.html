@@ -49,7 +49,7 @@
       </a>
     </div>
     <div class="hero-mockup">
-      <img src="assets/sportkeepr_competitions.png" alt="SportKeepr app screenshot" class="app-screenshot" />
+      <img src="assets/screenshot.png" alt="SportKeepr app screenshot" class="app-screenshot" />
     </div>
   </section>
 
@@ -128,6 +128,46 @@
           <strong>App Store</strong>
         </div>
       </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="section-label-top" data-i18n="contact.label">Contact</div>
+    <h2 class="section-title" data-i18n-html="contact.title">Interested? <br/><em>Let's talk.</em></h2>
+    <p class="section-sub" data-i18n="contact.sub">Whether you're a federation, a club, or just curious — we'd love to hear from you.</p>
+
+    <div class="contact-form fade-in">
+      <div class="contact-row">
+        <div class="contact-field">
+          <label for="contact-name" data-i18n="contact.name">Name</label>
+          <input type="text" id="contact-name" data-i18n-placeholder="contact.namePlaceholder" placeholder="Your name" />
+        </div>
+        <div class="contact-field">
+          <label for="contact-email" data-i18n="contact.email">Email</label>
+          <input type="email" id="contact-email" data-i18n-placeholder="contact.emailPlaceholder" placeholder="your@email.com" />
+        </div>
+      </div>
+      <div class="contact-field">
+        <label for="contact-role" data-i18n="contact.role">You are</label>
+        <select id="contact-role">
+          <option value="" data-i18n="contact.rolePlaceholder">Select your role…</option>
+          <option value="referee" data-i18n="audience.a1.title">Referee</option>
+          <option value="coach" data-i18n="audience.a2.title">Coach</option>
+          <option value="club" data-i18n="audience.a3.title">Club / League</option>
+          <option value="player" data-i18n="audience.a4.title">Player</option>
+          <option value="other" data-i18n="contact.roleOther">Other</option>
+        </select>
+      </div>
+      <div class="contact-field">
+        <label for="contact-message" data-i18n="contact.message">Message</label>
+        <textarea id="contact-message" rows="5" data-i18n-placeholder="contact.messagePlaceholder" placeholder="Tell us about your project or question…"></textarea>
+      </div>
+      <button class="contact-submit" id="contact-submit" onclick="handleContact()">
+        <span data-i18n="contact.send">Send message</span>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+      </button>
+      <p class="contact-note" id="contact-feedback" style="display:none"></p>
     </div>
   </section>
 
