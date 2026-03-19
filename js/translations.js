@@ -34,7 +34,18 @@ const translations = {
       "sports.label":"Roadmap","sports.title":"Starting with basketball.<br/><em>Growing</em> with sport.",
       "sports.sub":"More sports are coming. SportKeepr is built to handle any match report format.","sports.soon":"Soon",
       "cta.label":"Get the app","cta.title":"Your next game,<br/><em>digitized.</em>","cta.sub":"Free to download. Available now on iOS.",
-      "footer.copy":"© 2025 SportKeepr. All rights reserved.","footer.privacy":"Privacy","footer.terms":"Terms","footer.contact":"Contact"
+      "footer.copy":"© 2025 SportKeepr. All rights reserved.","footer.privacy":"Privacy","footer.terms":"Terms","footer.contact":"Contact",
+      "contact.label":"Contact","contact.title":"Interested?<br/><em>Let's talk.</em>",
+      "contact.sub":"Whether you're a federation, a club, or just curious — we'd love to hear from you.",
+      "contact.name":"Name","contact.namePlaceholder":"Your name",
+      "contact.email":"Email","contact.emailPlaceholder":"your@email.com",
+      "contact.role":"You are","contact.rolePlaceholder":"Select your role…","contact.roleOther":"Other",
+      "contact.message":"Message","contact.messagePlaceholder":"Tell us about your project or question…",
+      "contact.send":"Send message",
+      "contact.sending":"Sending…",
+      "contact.successMsg":"Message sent! We'll get back to you soon.",
+      "contact.errorEmpty":"Please fill in all required fields.",
+      "contact.errorEmail":"Please enter a valid email address."
     },
     fr: {
       "nav.features":"Fonctionnalités","nav.forWho":"Pour qui","nav.sports":"Sports","nav.download":"Télécharger","nav.appstore":"App Store",
@@ -66,7 +77,18 @@ const translations = {
       "sports.label":"Feuille de route","sports.title":"On commence par le basket.<br/>On <em>grandit</em> avec le sport.",
       "sports.sub":"D'autres sports arrivent bientôt. SportKeepr est conçu pour gérer n'importe quel format de rapport.","sports.soon":"Bientôt",
       "cta.label":"Télécharger l'app","cta.title":"Votre prochain match,<br/><em>digitalisé.</em>","cta.sub":"Gratuit. Disponible maintenant sur iOS.",
-      "footer.copy":"© 2025 SportKeepr. Tous droits réservés.","footer.privacy":"Confidentialité","footer.terms":"Conditions","footer.contact":"Contact"
+      "footer.copy":"© 2025 SportKeepr. Tous droits réservés.","footer.privacy":"Confidentialité","footer.terms":"Conditions","footer.contact":"Contact",
+      "contact.label":"Contact","contact.title":"Intéressé ?<br/><em>Parlons-en.</em>",
+      "contact.sub":"Que vous soyez une fédération, un club ou simplement curieux — nous serions ravis d'échanger.",
+      "contact.name":"Nom","contact.namePlaceholder":"Votre nom",
+      "contact.email":"Email","contact.emailPlaceholder":"votre@email.com",
+      "contact.role":"Vous êtes","contact.rolePlaceholder":"Sélectionnez votre rôle…","contact.roleOther":"Autre",
+      "contact.message":"Message","contact.messagePlaceholder":"Parlez-nous de votre projet ou de votre question…",
+      "contact.send":"Envoyer le message",
+      "contact.sending":"Envoi en cours…",
+      "contact.successMsg":"Message envoyé ! Nous vous répondrons bientôt.",
+      "contact.errorEmpty":"Veuillez remplir tous les champs obligatoires.",
+      "contact.errorEmail":"Veuillez entrer une adresse email valide."
     },
     it: {
       "nav.features":"Funzionalità","nav.forWho":"Per chi","nav.sports":"Sport","nav.download":"Scarica","nav.appstore":"App Store",
@@ -98,6 +120,17 @@ const translations = {
       "sports.label":"Roadmap","sports.title":"Si parte con il basket.<br/>Si <em>cresce</em> con lo sport.",
       "sports.sub":"Altri sport in arrivo. SportKeepr è costruito per gestire qualsiasi formato di referto.","sports.soon":"Presto",
       "cta.label":"Scarica l'app","cta.title":"La tua prossima partita,<br/><em>digitalizzata.</em>","cta.sub":"Gratuita. Disponibile ora su iOS.",
-      "footer.copy":"© 2025 SportKeepr. Tutti i diritti riservati.","footer.privacy":"Privacy","footer.terms":"Termini","footer.contact":"Contatti"
+      "footer.copy":"© 2025 SportKeepr. Tutti i diritti riservati.","footer.privacy":"Privacy","footer.terms":"Termini","footer.contact":"Contatti",
+      "contact.label":"Contatti","contact.title":"Interessato?<br/><em>Parliamone.</em>",
+      "contact.sub":"Che tu sia una federazione, un club o semplicemente curioso — ci farebbe piacere sentirti.",
+      "contact.name":"Nome","contact.namePlaceholder":"Il tuo nome",
+      "contact.email":"Email","contact.emailPlaceholder":"tua@email.com",
+      "contact.role":"Sei un","contact.rolePlaceholder":"Seleziona il tuo ruolo…","contact.roleOther":"Altro",
+      "contact.message":"Messaggio","contact.messagePlaceholder":"Raccontaci del tuo progetto o della tua domanda…",
+      "contact.send":"Invia messaggio",
+      "contact.sending":"Invio in corso…",
+      "contact.successMsg":"Messaggio inviato! Ti risponderemo presto.",
+      "contact.errorEmpty":"Per favore compila tutti i campi obbligatori.",
+      "contact.errorEmail":"Per favore inserisci un indirizzo email valido."
     }
   };
