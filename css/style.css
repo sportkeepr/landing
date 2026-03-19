@@ -142,3 +142,118 @@
       footer nav{margin-top:8px;}
       footer nav a{margin:0 12px;}
     }
+/* ── CONTACT ── */
+.contact-section { padding: 100px 24px; background: var(--white); }
+
+.contact-form {
+  max-width: 620px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.contact-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-field label {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--dark);
+  letter-spacing: 0.02em;
+}
+
+.contact-field input,
+.contact-field select,
+.contact-field textarea {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--dark);
+  background: var(--off-white);
+  border: 1.5px solid transparent;
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+  width: 100%;
+  resize: vertical;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.contact-field input::placeholder,
+.contact-field textarea::placeholder {
+  color: var(--mid-gray);
+}
+
+.contact-field input:focus,
+.contact-field select:focus,
+.contact-field textarea:focus {
+  border-color: var(--accent);
+  background: var(--white);
+}
+
+.contact-field select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23a1a1a6' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.contact-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--dark);
+  color: var(--white);
+  border: none;
+  padding: 14px 32px;
+  border-radius: 100px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.contact-submit:hover {
+  background: #333;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.contact-submit:active { transform: scale(0.98); }
+
+.contact-submit.sending { opacity: 0.6; pointer-events: none; }
+
+.contact-submit.success {
+  background: #16a34a;
+}
+
+.contact-note {
+  font-size: 0.85rem;
+  font-weight: 300;
+  color: var(--mid-gray);
+  margin-top: -8px;
+}
+
+.contact-note.error { color: #dc2626; }
+.contact-note.success { color: #16a34a; }
+
+@media(max-width: 600px) {
+  .contact-row { grid-template-columns: 1fr; }
+  .contact-submit { width: 100%; justify-content: center; }
+}
